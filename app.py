@@ -6,7 +6,7 @@ import re
 app = Flask(__name__)
 CORS(app, resources={
     r"/summarize": {
-        "origins": ["http://localhost:3000"],
+        "origins": ["https://youtubefront.onrender.com/"],
         "methods": ["POST"],
         "allow_headers": ["Content-Type"]
     }
